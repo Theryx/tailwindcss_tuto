@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Nonito;
+
+  src: url(.../font/Nunito-Regular.ttf);
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -10563,6 +10569,10 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-body {
+  font-family: Nunito;
 }
 
 .font-hairline {
@@ -32032,6 +32042,10 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-body {
+    font-family: Nunito;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -53432,6 +53446,10 @@ video {
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-body {
+    font-family: Nunito;
   }
 
   .md\:font-hairline {
@@ -74836,6 +74854,10 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-body {
+    font-family: Nunito;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -96236,6 +96258,10 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-body {
+    font-family: Nunito;
   }
 
   .xl\:font-hairline {

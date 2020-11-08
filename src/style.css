@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: Nonito;
+    src: url(.../font/Nunito-Regular.ttf);
+  }
+
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
